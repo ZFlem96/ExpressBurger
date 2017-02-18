@@ -2,7 +2,12 @@ extends layout
 
 block vars
     -var title ='Burgers'
+    -var filepath = '../public/images/burgers'
+    -var files = fs.readdir(filepath)
 
 block content
     h2 #{title}
     p Please choose any of our delicous burgers
+
+    ul
+        li files
