@@ -6,3 +6,13 @@ block vars
 block content
     h2 #{title}
     p Here are directions to where we are located
+    meta(name="viewport" content="initial-scale=1.0") 
+    meta(charset="utf-8")
+    style
+        map(height: 100%)  
+        html
+        body(height: 100% margin: 0) 
+    body
+    div(id="map" style="width:450px;height:350px;")
+    script(src="/script/map.js")
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUPaBbHyIq4-6qtVaK82Y2dhJrkatbyIU&callback=initMap", async="", defer="")
