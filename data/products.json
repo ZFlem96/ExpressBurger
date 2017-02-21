@@ -3,31 +3,31 @@
     [
         {
             "ProductName": "A1 1/2 lb. Burger",
-            "Image": "burgers/a1_burger.jpg",
+            "Image": "/public/images/burgers/a1_burger.jpg",
             "Description": "A 1/2 lb patty topped with two slices of cheddar, mushrooms, tomatoes, lettuce, and mayo, then drizzled with A1 steak sauce.",
             "Price": 27.99
         },
         {
             "ProductName": "1/4 lb. Bacon Cheeseburger",
-            "Image": "burgers/bacon_cheeseburger.jpg",
+            "Image": "/public/images/burgers/bacon_cheeseburger.jpg",
             "Description": "A 1/4 lb patty with cheddar, bacon, and lettuce.",
             "Price": 7.99
         },
         {
             "ProductName": "Valentine's Special",
-            "Image": "burgers/heart_burger.jpg",
+            "Image": "/public/images/burgers/heart_burger.jpg",
             "Description": "Two 1/4 lb patties made from various animal's hearts with diced onions, cheddar, and lettuce on a heart-shaped bun. It's large enough to share!",
             "Price": 99.99
         },
         {
             "ProductName": "Mushroom Swiss Burger",
-            "Image": "burgers/mushroom_swiss_burger.jpg",
+            "Image": "/public/images/burgers/mushroom_swiss_burger.jpg",
             "Description": "A 1/2 lb, hand-made patty covered in mushrooms and swiss cheese.",
             "Price": 7.32
         },
         {
             "ProductName": "Vegan Burger",
-            "Image": "burgers/vegan_burger.jpg",
+            "Image": "/public/images/burgers/vegan_burger.jpg",
             "Description": "A patty that totally isn't meat with pickles, onions, tomatoes, and lettuce.",
             "Price": 80.47
         }
@@ -36,31 +36,31 @@
     [
         {
             "ProductName": "Choco Taco",
-            "Image": "ice_cream/choco-taco.jpg",
+            "Image": "/public/images/ice_cream/choco-taco.jpg",
             "Description": "If you haven't ever had one, you're doing it wrong.",
             "Price": 3.99
         },
         {
             "ProductName": "Hard-serve single-scoop cone.",
-            "Image": "ice_cream/cones.jpg",
+            "Image": "/public/images/ice_cream/cones.jpg",
             "Description": "A waffle cone with a single scoop of hard-serve ice cream. Additional scoops $1.00 per scoop.",
             "Price": 1.74
         },
         {
             "ProductName": "Mork!shake",
-            "Image": "ice_cream/milkshake.jpg",
+            "Image": "/public/images/ice_cream/milkshake.jpg",
             "Description": "Ice cream, milk, flavoring, whipped cream, and a fresh piece of fruit.",
             "Price": 24.24
         },
         {
             "ProductName": "Aice Crahm Sondwich!",
-            "Image": "ice_cream/sandwich.jpg",
+            "Image": "/public/images/ice_cream/sandwich.jpg",
             "Description": "You already know, why are you even reading the description on this particular item?",
             "Price": 2
         },
         {
             "ProductName": "Sundae",
-            "Image": "ice_cream/sundae.jpg",
+            "Image": "/public/images/ice_cream/sundae.jpg",
             "Description": "Only available on Sunday.",
             "Price": 7.77
         }
@@ -69,31 +69,31 @@
     [
         {
             "ProductName": "Cheesy Broccoli Soup",
-            "Image": "soups/cheesy_broccoli_soup.jpg",
+            "Image": "/public/images/soups/cheesy_broccoli_soup.jpg",
             "Description": "Way better than it looks",
             "Price": 5
         },
         {
             "ProductName": "Chicken Noodle Soup",
-            "Image": "soups/chicken_noodle_soup.jpg",
+            "Image": "/public/images/soups/chicken_noodle_soup.jpg",
             "Description": "Good for the soul.",
             "Price": 5
         },
         {
             "ProductName": "Clam Chowder",
-            "Image": "soups/clam_chowder.jpg",
+            "Image": "/public/images/soups/clam_chowder.jpg",
             "Description": "If you want good clam chowder, go to the coast...",
             "Price": 5
         },
         {
             "ProductName": "Lobster Crab Soup",
-            "Image": "soups/lobster_crap_soup.jpg",
+            "Image": "/public/images/soups/lobster_crap_soup.jpg",
             "Description": "Why are you getting lobster crab soup in Salt Lake City?",
             "Price": 100.01
         },
         {
             "ProductName": "Meatball Soup",
-            "Image": "soups/meatball_soup",
+            "Image": "/public/images/soups/meatball_soup",
             "Description": "It's soup with meatballs in it, what did you think it was?",
             "Price": 5
         }
