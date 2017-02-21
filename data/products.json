@@ -89,7 +89,7 @@
             "ProductName": "Lobster Crab Soup",
             "Image": "soups/lobster_crap_soup.jpg",
             "Description": "Why are you getting lobster crab soup in Salt Lake City?",
-            "Price": 100
+            "Price": 100.01
         },
         {
             "ProductName": "Meatball Soup",
