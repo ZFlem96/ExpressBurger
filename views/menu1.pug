@@ -2,12 +2,12 @@ extends layout
 
 block vars
     -var title = 'Burgers';
-    -var items = data.burgers; //so I 'just' need to load my data into this and I'm good...
-
+    
 block content
     h2 #{title}
     p Here's our selection of burgers, with something for just about everyone we're sure you'll find something you like!
 
+    p #{Burgers[1].ProductName}
     ul
-        each item in items
-            li= item
+        //- each item in Burgers
+        //-     li= item.ProductName

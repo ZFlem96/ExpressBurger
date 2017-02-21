@@ -13,7 +13,10 @@ app.get('/', function(req, res){
     res.render('index');
 });
 app.get('/:viewname', function(req, res){
-    res.render(req.params.viewname, {json: data});
+    res.render(req.params.viewname);
 });
-  
+app.get('/menu1', function(req, res){
+    res.render('menu1', data);
+});
+
 app.listen(3000);
