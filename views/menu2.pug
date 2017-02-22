@@ -6,3 +6,14 @@ block vars
 block content
     h2 #{title}
     p If burgers aren't for you then try some of our amazing soups!
+
+    ul
+        each item in Soup
+            li
+                div= item.ProductName
+
+                //-Loading the image is not currently working, in theory we want to use item.Image as the source in the end.
+
+                img(src=item.Image) 
+                p= item.Description
+                div= item.Price

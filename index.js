@@ -15,6 +15,12 @@ app.get('/', function(req, res){
 app.get('/menu1', function(req, res){
     res.render('menu1', data);
 });
+app.get('/menu2', function(req, res){
+    res.render('menu2', data);
+});
+app.get('/menu3', function(req, res){
+    res.render('menu3', data);
+});
 app.get('/:viewname', function(req, res){
     res.render(req.params.viewname);
 });

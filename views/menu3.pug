@@ -5,4 +5,15 @@ block vars
 
 block content
     h2 #{title}
-    p Care for some dessert?  We've got just the thing to hit the spot! 
+    p Care for some dessert?  We've got just the thing to hit the spot!
+
+    ul
+        each item in IceCream
+            li
+                div= item.ProductName
+
+                //-Loading the image is not currently working, in theory we want to use item.Image as the source in the end.
+
+                img(src=item.Image) 
+                p= item.Description
+                div= item.Price
